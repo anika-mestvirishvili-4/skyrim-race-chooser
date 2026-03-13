@@ -1,0 +1,25 @@
+races = {
+    "Altmer": {
+        "Illusion": 25,
+        "Conjuration": 20,
+        "Destruction": 20,
+        "Restoration": 20,
+        "Alteration": 20
+    },
+
+    "Argonian": {
+        "Lockpicking": 25,
+        "Light Armor": 20,
+        "Pickpocket": 20,
+        "Restoration": 20,
+        "Alteration": 20
+    },
+
+    "Breton": {
+        "Conjuration": 25,
+        "Restoration": 20,
+        "Alteration": 20,
+        "Illusion": 20,
+        "Alchemy": 20
+    }
+}
