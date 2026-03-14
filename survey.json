@@ -29,11 +29,11 @@
         },
         {
           "text": "Intimidate them",
-          "skills": ["Speech", "Heavy Armor"]
+          "skills": ["Speech"]
         },
         {
           "text": "Avoid conversation and act instead",
-          "skills": ["Sneak", "One-Handed"]
+          "skills": []
         },
         {
           "text": "Bribe or negotiate",
@@ -64,6 +64,7 @@
       "question": "How do you defend yourself?",
       "options": [
         { "text": "Blocking attacks with a shield", "skills": ["Block"] },
+        { "text": "Blocking attacks with a ward", "skills": ["Alteration"] },
         { "text": "Strong armor", "skills": ["Heavy Armor"] },
         { "text": "Dodging attacks with agile movement", "skills": ["Light Armor"] }
       ]
