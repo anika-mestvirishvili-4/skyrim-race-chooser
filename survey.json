@@ -4,8 +4,8 @@
       "id": "combat_style",
       "question": "Which combat style sounds best?",
       "options": [
-        { "text": "Melee weapons", "skills": ["One-Handed", "Two-Handed", "Block"] },
-        { "text": "Bows", "skills": ["Archery"] },
+        { "text": "Fighting with melee weapons", "skills": ["One-Handed", "Two-Handed", "Block"] },
+        { "text": "Archery", "skills": ["Archery"] },
         { "text": "Magic", "skills": ["Destruction", "Conjuration"] },
         { "text": "Mix", "skills": ["One-Handed", "Destruction"] }
       ]
@@ -56,7 +56,7 @@
     },
     {
       "id": "combat_style",
-      "question": "What is your preferred malee-combat style?",
+      "question": "What is your preferred melee-combat style?",
       "options": [
         { "text": "Swift and light attacks", "skills": ["One-Handed"] },
         { "text": "Slow but impactful attacks", "skills": ["Two-Handed", "Block"] },

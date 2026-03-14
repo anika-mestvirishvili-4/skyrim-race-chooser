@@ -35,11 +35,17 @@ def evaluate_races(races, chosen_skills):
                 scores[race] += 1
     return scores
 
-def rank_results():
-    scores = evaluate_races(races, user_interference())  
+def rank_results(chosen_skills):
+    scores = evaluate_races(races, chosen_skills)
     sorted_scores = sorted(scores.items(), key=lambda item: item[1], reverse=True)
-    print("The results (Ranked best to worst.)")
-    for race, score in sorted_scores:
-        print(race, score)
+    return sorted_scores
 
-rank_results()
+def results():
+    chosen_skills = user_interference()
+
+    print("The top results are:")
+
+    for race, score in rank_results(chosen_skills)[:3]:
+        print(race, f"(Score: {score})")
+
+results()
