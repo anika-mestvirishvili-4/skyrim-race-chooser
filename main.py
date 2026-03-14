@@ -37,11 +37,10 @@ def evaluate_races(races, chosen_skills):
 
 def rank_results(chosen_skills):
     scores = evaluate_races(races, chosen_skills)
-    sorted_scores = sorted(scores.items(), key=lambda item: item[1], reverse=True)
-    return sorted_scores
+    return sorted(scores.items(), key=lambda item: item[1], reverse=True)
 
 def statistics(chosen_skills):
-    user_answer = input("Would you like to learn more about the result statistics? (y/n)")
+    user_answer = input("Would you like to learn about the result statistics? (y/n) ")
 
     if  user_answer == "y":
         
@@ -52,8 +51,9 @@ def statistics(chosen_skills):
 
     elif user_answer == "n":
         pass
+
     else:
-        print("Input is invalid. (y/n)")
+        print("Invalid input. ")
         statistics(chosen_skills)
 
 def results():
