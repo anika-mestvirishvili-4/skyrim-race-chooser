@@ -20,6 +20,28 @@
       ]
     },
     {
+      "id": "speech_style",
+      "question": "How do you prefer to resolve conflicts with NPCs?",
+      "options": [
+        {
+          "text": "Persuade them with words",
+          "skills": ["Speech"]
+        },
+        {
+          "text": "Intimidate them",
+          "skills": ["Speech", "Heavy Armor"]
+        },
+        {
+          "text": "Avoid conversation and act instead",
+          "skills": ["Sneak", "One-Handed"]
+        },
+        {
+          "text": "Bribe or negotiate",
+          "skills": ["Speech"]
+        }
+      ]
+    },
+    {
     "id": "magic_importance",
     "question": "Is magic important to your build?",
     "options": [
