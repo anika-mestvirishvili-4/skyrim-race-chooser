@@ -89,12 +89,12 @@ ___________________________________
 
 ## The Project Structure
 
-main.py — program entry point  
-survey.py — handles questions and user's input  
-engine.py — assesses races and calculates scores  
-statistics.py — calculates and displays result statistics  
-survey.json — survey questions; answer to skill mappings 
-races.json — race skill data
+main.py — program entry point    
+survey.py — handles questions and user's input    
+engine.py — assesses races and calculates scores    
+statistics.py — calculates and displays result statistics    
+survey.json — survey questions; answer to skill mappings    
+races.json — race skill data   
 ___________________________________
 
 ## Scoring System
