@@ -4,9 +4,9 @@ from statistics import statistics
 
 def display():
 
-    print("\n| -------------------------------------- |")
-    print("|  Welcome to the Skyrim Race Chooser!   |")
-    print("| -------------------------------------- |\n")
+    print("\n| ---------------------------------- |")
+    print("|  Welcome to Skyrim Race Chooser!   |")
+    print("| ---------------------------------- |\n")
 
 def main():
     display()
@@ -15,8 +15,9 @@ def main():
     results = rank_results(chosen_skills)
 
     print("The top results are:")
-    for race, score in results[:3]:
-        print(race, score)
+    for race, _ in results[:3]:    #So _ is used when we intentionally disregard a value
+        print(race)
+       
 
     statistics(chosen_skills)
 
