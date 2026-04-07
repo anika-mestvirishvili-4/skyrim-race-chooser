@@ -1,16 +1,20 @@
 body {
     margin:0;
     font-family: Monospace, Lucida Console;
-
-    background-image: 
-        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
-        url("/static/pictures/ai_img.png");
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("/static/pictures/ai_img.png");
     background-size: cover;
     background-position: center center 60%;
     background-repeat: no-repeat;
 }
 
 
+.race-container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 
 .ribbon {
     background-color: #222;
