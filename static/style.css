@@ -1,7 +1,16 @@
 body {
     margin:0;
     font-family: Monospace, Lucida Console;
+
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url("/static/pictures/ai_img.png");
+    background-size: cover;
+    background-position: center center 60%;
+    background-repeat: no-repeat;
 }
+
+
 
 .ribbon {
     background-color: #222;
