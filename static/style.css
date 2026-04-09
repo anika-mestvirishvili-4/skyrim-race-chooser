@@ -2,17 +2,24 @@ body {
     margin:0;
     font-family: Monospace, Lucida Console;
     background-color: rgba(0, 0, 0, 0.9);
-    background-image: url("/static/pictures/ai_img.png");
-    background-size: cover;
-    background-position: center center 60%;
-    background-repeat: no-repeat;
 }
 
 
-.race-container {
-    margin-top: 300px;
+.character {
+
+    height: 420px;
+    background-image: url("/static/pictures/ai_img.png");
+    background-position: center 60%;
+    background-repeat: no-repeat;
+
     display: flex;
+    align-items: flex-end;
     justify-content: center;
+}
+
+.race-container {
+    margin-bottom: 35px;
+    display: flex;
     gap: 15px;
 }
 
