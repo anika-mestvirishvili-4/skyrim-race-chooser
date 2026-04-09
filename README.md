@@ -29,7 +29,6 @@ ___________________________________
 ## Example
 
 ```
-```
 Which combat style sounds best?
 ( 1 ) Fighting with melee weapons
 ( 2 ) Archery
@@ -50,12 +49,10 @@ Dunmer
 Argonian
 Breton
 ```
-```
 ___________________________________
 
 ### Statistics Feature Example
 
-```
 ```
 The top results are:
 Dunmer
@@ -72,7 +69,6 @@ Bosmer: 5/7 (71%)
 Nord: 5/7 (71%)
 Imperial: 3/7 (43%)
 Orsimer: 3/7 (43%)
-```
 ```
 ___________________________________
 
