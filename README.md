@@ -29,6 +29,7 @@ ___________________________________
 ## Example
 
 ```
+```
 Which combat style sounds best?
 ( 1 ) Fighting with melee weapons
 ( 2 ) Archery
@@ -49,10 +50,12 @@ Dunmer
 Argonian
 Breton
 ```
+```
 ___________________________________
 
 ### Statistics Feature Example
 
+```
 ```
 The top results are:
 Dunmer
@@ -69,6 +72,7 @@ Bosmer: 5/7 (71%)
 Nord: 5/7 (71%)
 Imperial: 3/7 (43%)
 Orsimer: 3/7 (43%)
+```
 ```
 ___________________________________
 
@@ -89,12 +93,12 @@ ___________________________________
 
 ## The Project Structure
 
-main.py — program entry point  
-survey.py — handles questions and user's input  
-engine.py — assesses races and calculates scores  
-statistics.py — calculates and displays result statistics  
-survey.json — survey questions; answer to skill mappings 
-races.json — race skill data
+main.py — program entry point    
+survey.py — handles questions and user's input    
+engine.py — assesses races and calculates scores    
+statistics.py — calculates and displays result statistics    
+survey.json — survey questions; answer to skill mappings    
+races.json — race skill data   
 ___________________________________
 
 ## Scoring System
@@ -105,11 +109,11 @@ In Skyrim each player race has either 15, 20 or 25 starting points for every ski
 
 The program goes through each race and evaluates how good a match it's starting skills are to the created skill-set.
 So, these starting skill points determine total scores:
-```
-Starting Point: 25 --> +2
-Starting Point: 20 --> +1
-Starting Point: 15 --> +0
-```
+
+Starting Point: 25 --> +2    
+Starting Point: 20 --> +1    
+Starting Point: 15 --> +0   
+ 
 The races are then ranked by their total score.
 ___________________________________
 
